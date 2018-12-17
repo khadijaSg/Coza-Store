@@ -1,0 +1,436 @@
+
+/* navigation */
+.nav-link{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    
+}
+
+#logo{
+    width: 170px;
+}
+
+a{
+    margin-left: 20px; 
+    margin-right: 20px;  
+    font-size: 20px; 
+    text-decoration: none !important;
+    color: black;
+    -webkit-transition: 0.2s;
+}
+
+.zmdi{
+    font-size: 25px;
+    margin-left: 0px;
+    cursor: pointer;
+    float: right;
+}   
+
+.icons{
+    display: flex;
+}
+
+/*end of navigation*/
+
+/* slider */
+
+#slider{
+    position: relative;
+}
+
+#slider .container-fluid{
+    position: absolute;
+    top: 0;
+}
+
+/* end of slider */
+
+/* banner section */
+
+#banner{
+    background-color: white;
+    height: 500px;
+}
+
+#banner .col-sm-4{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 80px;
+}
+
+.bannerImg{
+    display: flex;
+}
+
+
+ #banner .container {
+    position: relative;
+    width: 100%;
+  }
+
+  .bannerImg .overlay .text a{
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 240px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #6774d5;
+    opacity: 0.8;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+
+
+
+/* overview header*/
+
+header{
+    height: 140px;
+}
+
+header .container .col-md-8{
+    display: flex;
+}
+
+header .row{
+    margin-left: -37px;
+}
+
+header .title h1{
+    margin-left: 5px;
+}
+
+.productOverview {
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.productOverview a{
+    font-size: 15px;
+}
+
+.overviewBtns{
+    margin-top: 4px;
+    display: flex;
+}
+
+.filterBtn{
+    margin-left:170px; 
+ }
+
+ .filterBtn button{
+    width: 88px;
+    height: 40px;
+}
+
+.filterBtn button .zmdi{
+    font-size: 18px;
+    margin-top: 3px;
+    margin-left: 8px;
+}
+
+
+.searchBtn{
+   margin-left:10px;
+}
+
+.searchBtn button{
+    width: 100px;
+    height: 40px;
+}
+
+.searchBtn button .zmdi{
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+/* overview section */
+
+#overview{
+    height: 2180px;
+}
+#overview .container-fluid {
+    width: 80%;
+}
+
+#overview .container-fluid .col-sm-3 {
+    margin-top: 30px;
+}
+
+
+#overview .card-body .cardPrdctName a{
+    font-size: 13px;
+}
+
+#overview .card-body{
+    text-align: center !important;
+}
+
+#overview .card img{
+    transition: transform .6s; /* Animation */
+}
+
+.card img:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+#overview .loadMoreBtn button{
+    margin-left: 550px;
+    margin-top: 80px;
+    border: solid lightgray;
+    border-radius: 25px;
+    width: 165px;
+    height: 50px;
+}
+
+
+
+
+/* my modal (cart modal) */
+
+
+
+.modal.right .modal-dialog {
+	position: fixed;
+	margin: auto;
+	width: 320px;
+	height: 100%;
+	-webkit-transform: translate3d(400%, 0, 0);
+	-ms-transform: translate3d(400%, 0, 0);
+	-o-transform: translate3d(400%, 0, 0);
+	transform: translate3d(400%, 0, 0);
+}
+
+.modal.right .modal-content {
+	height: 100%;
+	overflow-y: auto;
+}
+
+.modal.right .modal-body {
+	padding: 15px 15px 80px;
+}
+
+.modal.right.fade .modal-dialog {
+	left: -320px;
+	-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+	-moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+	-o-transition: opacity 0.3s linear, right 0.3s ease-out;
+	transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.show .modal-dialog {
+	left: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+	border-radius: 0;
+	border: none;
+}
+
+.modal-header {
+	border-bottom-color: #eeeeee;
+	background-color: #fafafa;
+}
+
+.modal-body .modal1Title h3{
+    margin-left: 33px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.modal-footerSecnd{
+    margin-left: 60px;
+    margin-bottom: 30px;
+
+}
+
+.modal-footerSecnd .btn{
+    margin-bottom: 15px;
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    display: flex;
+    border: solid;
+    border-radius: 18px;
+}
+
+.modal-footer .btn{
+    margin-bottom: 10px;
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+}
+
+
+.cartProducts .cartItem{
+    display: flex;
+    margin-top: 30px;
+}
+
+.prdctInfo{
+    display: flex;
+}
+
+.prdctInfo a{
+    font-size: 15px;
+}
+
+.prdctInfo .amountNprice{
+    font-size: 13px;
+}
+
+
+
+/* footer */
+
+footer{
+    background-color:#222;
+    height: 520px;
+    width: 100%;
+}
+
+footer .container .row{
+    width: 100%;
+}
+
+footer .row .col-sm-3{
+    margin-top: 60px;
+}
+
+footer .col-sm-3 h4{
+    color: white;
+    font-size: 20px;
+}
+
+footer .row .col-sm-3 ul{
+   margin-left: -60px;
+}
+
+footer .col-sm-3 ul li{
+    margin-top: 6px;
+}
+
+footer h4{
+    margin-bottom: 33px;
+}
+
+footer .col-sm-3 ul li a{
+    font-size: 15px;
+    color: #b2b2b2;
+}
+
+footer .col-sm-3 p{
+    font-size: 15px;
+    color: #b2b2b2;
+}
+
+
+footer .col-sm-3 .socialMedia{
+    float: left;
+    display: flex;
+    margin-left: -38px;
+}
+
+footer .col-sm-3 .socialMed{
+    width: 30%;
+}
+
+footer .col-sm-3 .socialMed a{
+    color: #b2b2b2;
+    
+}
+
+footer .wrap-input1 .input1{
+    background-color: #222;
+    border: solid #222;
+    border-radius: 20px;
+    width: 100% !important;
+}
+
+.subscribeBtn button{
+    margin-top: 16px;
+    width: 63%;
+    color: white;
+    background: #6774d5;
+    border: solid #6774d5;
+    border-radius: 20px;
+}
+
+
+.line hr{
+    line-height: 3px;
+    width: 100%;
+    float: left;
+    background-color: #6774d5;
+}
+
+
+footer .container-fluid {
+    height: 120px;
+    width: 70%;
+}
+
+footer .container-fluid .col-md-12{
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+footer .container-fluid .col-md-12 .pay a{
+    margin-left: -20px;
+}
+
+footer .container-fluid .col-md-12 .madeBy p{
+    color: #b2b2b2;
+    margin-top: 20px;
+}
+
+footer .container-fluid .col-md-12 .madeBy a{
+    font-size: 18px;
+    padding-right: 23px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, .btn, span{
+    font-family: Verdana, Geneva, sans-serif;
+   
+} 
